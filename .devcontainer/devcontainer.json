@@ -1,0 +1,51 @@
+{
+  "name": "My Haskell Devcontainer",
+  "image": "ghcr.io/lcamel/haskell-devcontainer:latest",
+  // On non-x86 computers (like M-series MacBooks), the first startup will fail if
+  // the image doesn't exist locally. Therefore, we add a pull command.
+  // However, this would cause remote connections everytime we start the container,
+  // so we add a check: only pull if the image doesn't exist (even if it's older).
+  // If you always want the newest image, you can just pull it everytime without inspecting it first.
+  "initializeCommand": "time bash -c 'docker image inspect ghcr.io/lcamel/haskell-devcontainer:latest >/dev/null 2>&1 || docker pull ghcr.io/lcamel/haskell-devcontainer:latest --platform=linux/amd64'",
+  "runArgs": [
+    "--platform=linux/amd64"
+  ],
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "haskell.haskell"
+      ],
+      "settings": {
+        //
+        // We want to install the specified versions ourselves first
+        // and then have the Haskell extension use them.
+        // This should be the behavior of "haskell.manageHLS" = "PATH".
+        //
+        // However, due to the Haskell Extension's logic, a dialog
+        // will initially appear, and users might make the wrong choice.
+        //
+        // So we change the setting to "haskell.manageHLS" = "GHCup"
+        // and tell GHCup not to install any tools automatically,
+        // which equals to the original behavior of using
+        // pre-installed tools from "PATH".
+        //
+        "haskell.manageHLS": "GHCup",
+        "haskell.upgradeGHCup": false,
+        "haskell.toolchain": {
+          "ghc": null,
+          "hls": null,
+          "stack": null,
+          "cabal": null
+        }
+      }
+    }
+  },
+  // Some Haskell code requires locale settings to process non-ASCII characters.
+  "containerEnv": {
+    "LANG": "en_US.UTF-8",
+    "LC_ALL": "en_US.UTF-8",
+    "LC_CTYPE": "en_US.UTF-8",
+    "LANGUAGE": "en_US:en"
+  }
+}
