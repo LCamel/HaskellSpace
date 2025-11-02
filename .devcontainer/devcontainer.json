@@ -1,11 +1,14 @@
 {
   "name": "My Haskell Devcontainer",
   "image": "ghcr.io/lcamel/haskell-devcontainer:latest",
+  //
   // On non-x86 computers (like M-series MacBooks), the first startup will fail if
   // the image doesn't exist locally. Therefore, we add a pull command.
-  // However, this would cause remote connections everytime we start the container,
-  // so we add a check: only pull if the image doesn't exist (even if it's older).
-  // If you always want the newest image, you can just pull it everytime without inspecting it first.
+  // However, this would cause remote connections every time we start the container,
+  // so we add a check: only pull if the image is missing locally (existing images won't be updated even if outdated).
+  // This behavior matches the default devcontainer logic.
+  // If you always want the newest image, you can just pull it every time without inspecting it first.
+  //
   "initializeCommand": "time bash -c 'docker image inspect ghcr.io/lcamel/haskell-devcontainer:latest >/dev/null 2>&1 || docker pull ghcr.io/lcamel/haskell-devcontainer:latest --platform=linux/amd64'",
   "runArgs": [
     "--platform=linux/amd64"
@@ -27,7 +30,7 @@
         //
         // So we change the setting to "haskell.manageHLS" = "GHCup"
         // and tell GHCup not to install any tools automatically,
-        // which equals to the original behavior of using
+        // which is equivalent to the original behavior of using
         // pre-installed tools from "PATH".
         //
         "haskell.manageHLS": "GHCup",
