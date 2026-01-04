@@ -4,7 +4,7 @@
 
 建構於 [GitHub Codespaces](https://github.com/features/codespaces) 之上, 每個 GitHub 帳號每個月可以免費使用 60 小時.
 
-你可以點選頁面右上角的 "Code / Codespaces / Create codespace on main" 來使用(先 Login).
+你可以點選頁面右上角的 "Code / Codespaces / Create codespace on main" 來使用(先 login).
 
 或者是點這個連結: [https://codespaces.new/LCamel/HaskellSpace](https://codespaces.new/LCamel/HaskellSpace)
 
@@ -13,14 +13,16 @@
 
 ## Stack
 
-請使用 image 中 `~/stackage-version` 的 snapshot.
+若要使用 stack, 請使用 image 中 `~/stackage-version` 的 snapshot.
 ```bash
-# Create a sample project and run it
+# Create a sample project
 stack new foo --bare --resolver "$(cat ~/stackage-version)"
+# Build and install foo-exe in the PATH
 stack install
+# Run
 foo-exe
 ```
-如果 Haskell 不能正常顯示, 可在 Command Palette 執行 `>Haskell: Restart Haskell LSP server`.
+如果 Haskell 在編輯器中顯示不合理的錯誤, 可嘗試在 Command Palette 執行 `>Haskell: Restart Haskell LSP server`.
 
 
 ## 進階使用
