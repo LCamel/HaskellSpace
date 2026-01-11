@@ -7,6 +7,7 @@ Built on top of [GitHub Codespaces](https://github.com/features/codespaces), eac
 You can click on "Code / Codespaces / Create codespace on main" in the upper right corner of the page (login first).
 
 [Video](https://www.youtube.com/watch?v=w1oCE8Ua7p8)
+
 [![Video](https://img.youtube.com/vi/w1oCE8Ua7p8/0.jpg)](https://www.youtube.com/watch?v=w1oCE8Ua7p8)
 
 
@@ -29,6 +30,7 @@ foo-exe
 If Haskell shows unreasonable errors in the editor, try executing `>Haskell: Restart Haskell LSP server` in the Command Palette.
 
 [Video](https://www.youtube.com/watch?v=g1kK50rIAv4)
+
 [![Video](https://img.youtube.com/vi/g1kK50rIAv4/0.jpg)](https://www.youtube.com/watch?v=g1kK50rIAv4)
 
 ## Advanced Usage
