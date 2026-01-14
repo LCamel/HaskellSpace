@@ -21,11 +21,14 @@ List all active codespaces: [https://github.com/codespaces/](https://github.com/
 To use stack, please use the snapshot from `~/stackage-version` in the image.
 ```bash
 # Create a sample project
-stack new foo --bare --resolver "$(cat ~/stackage-version)"
 # Build and install foo-exe in the PATH
-stack install
 # Run
+# Clean up the generated project
+
+stack new foo --bare --resolver "$(cat ~/stackage-version)"
+stack install
 foo-exe
+git clean -fx .
 ```
 If Haskell shows unreasonable errors in the editor, try executing `>Haskell: Restart Haskell LSP server` in the Command Palette.
 
