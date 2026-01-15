@@ -6,12 +6,7 @@ Built on top of [GitHub Codespaces](https://github.com/features/codespaces), eac
 
 You can click on "Code / Codespaces / Create codespace on main" in the upper right corner of the page (login first).
 
-
-
-[Video](https://www.youtube.com/watch?v=w1oCE8Ua7p8)<br>
 [![codespaces_thumb](https://github.com/user-attachments/assets/6780b29c-aff9-4641-aef1-2fc64200a1d8)](https://www.youtube.com/watch?v=w1oCE8Ua7p8)
-
-
 
 
 Or click this link: [https://codespaces.new/LCamel/HaskellSpace](https://codespaces.new/LCamel/HaskellSpace)
@@ -35,8 +30,7 @@ git clean -fx .
 ```
 If Haskell shows unreasonable errors in the editor, try executing `>Haskell: Restart Haskell LSP server` in the Command Palette.
 
-[Video](https://www.youtube.com/watch?v=g1kK50rIAv4)<br>
-[![codespaces_thumb](https://github.com/user-attachments/assets/bb61fd75-4f2a-4808-a964-cc530d69e4c8)](https://www.youtube.com/watch?v=g1kK50rIAv4)
+[![codespaces_thumb](https://github.com/user-attachments/assets/931694e0-e7ec-4e9f-a572-c7d388611823)](https://www.youtube.com/watch?v=g1kK50rIAv4)
 
 
 ## Advanced Usage
