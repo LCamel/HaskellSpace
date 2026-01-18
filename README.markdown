@@ -16,14 +16,14 @@ List all active codespaces: [https://github.com/codespaces/](https://github.com/
 
 ## Stack
 
-To use stack, please use the snapshot from `~/stackage-version` in the image.
+To use stack, please use the snapshot from `~/.haskell-devcontainer/stackage-version` in the image.
 ```bash
 # Create a sample project
 # Build and install foo-exe in the PATH
 # Run
 # Clean up the generated project
 
-stack new foo --bare --resolver "$(cat ~/stackage-version)"
+stack new foo --bare --resolver "$(cat ~/.haskell-devcontainer/stackage-version)"
 stack install
 foo-exe
 git clean -fx .
