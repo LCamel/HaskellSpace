@@ -1,12 +1,12 @@
 # HaskellSpace
 
-This is a Haskell environment suitable for teaching and testing that works in your browser.
+Practicing Haskell in a browser.
 
 Built on top of [GitHub Codespaces](https://github.com/features/codespaces), each GitHub account can use it for free for 60 hours per month.
 
 You can click on "Code / Codespaces / Create codespace on main" in the upper right corner of the page (login first).
 
-[![codespaces_thumb](https://github.com/user-attachments/assets/6780b29c-aff9-4641-aef1-2fc64200a1d8)](https://www.youtube.com/watch?v=w1oCE8Ua7p8)
+[![codespaces_thumb](https://github.com/user-attachments/assets/6780b29c-aff9-4641-aef1-2fc64200a1d8)](https://www.youtube.com/watch?v=hcx0SSvk7zg)
 
 
 Or click this link: [https://codespaces.new/LCamel/HaskellSpace](https://codespaces.new/LCamel/HaskellSpace)
