@@ -14,7 +14,7 @@
 
 A Haskell workspace in your browser (GHC + Stack + HLS).
 
-Built on [GitHub Codespaces](https://github.com/features/codespaces). Personal accounts include 60 free hours/month ([plan](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) dependent).
+Built on [GitHub Codespaces](https://github.com/features/codespaces). Personal accounts include 60 free hours per month ([plan](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) dependent).
 
 ## Quick Start (Codespaces)
 
@@ -27,7 +27,7 @@ Built on [GitHub Codespaces](https://github.com/features/codespaces). Personal a
 
 ## Stack
 
-Use the snapshot pinned in `~/.haskell-devcontainer/stackage-version` (inside the devcontainer image).
+Use the snapshot pinned in `~/.haskell-devcontainer/stackage-version` .
 ```bash
 # Create a sample project
 # Build and install foo-exe into your PATH
@@ -44,15 +44,17 @@ If you see incorrect or stale Haskell diagnostics in the editor, run `>Haskell: 
 [![codespaces_thumb](https://github.com/user-attachments/assets/a56b1e88-84e6-4b31-8527-48fa0ffdca67)](https://www.youtube.com/watch?v=g1kK50rIAv4)
 
 
+## Customization
+
+Copy [.devcontainer/devcontainer.json](.devcontainer/devcontainer.json) into your own repo so it can also be opened in the browser. See [this guide](https://code.visualstudio.com/docs/devcontainers/create-dev-container) for further customization.
 
 ## Advanced Usage
 
-Copy [.devcontainer/devcontainer.json](.devcontainer/devcontainer.json) into your own repo to use the same setup in the browser.
-
-To run the same environment locally, see [LCamel/haskell-devcontainer](https://github.com/LCamel/haskell-devcontainer).
+To run locally, see [LCamel/haskell-devcontainer](https://github.com/LCamel/haskell-devcontainer).
 
 
 ## License
+
 [MIT-0](https://opensource.org/licenses/MIT-0) / [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 <!--
