@@ -12,7 +12,7 @@
 
 # HaskellSpace
 
-A Haskell workspace in your browser (GHC + Stack + HLS).
+A Haskell workspace in your browser (GHC + Stackage + HLS).
 
 Built on [GitHub Codespaces](https://github.com/features/codespaces). Personal accounts include 60 free hours per month ([plan](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) dependent).
 
