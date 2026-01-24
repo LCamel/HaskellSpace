@@ -40,8 +40,7 @@ git clean -fx .
 ```
 If you see incorrect or stale Haskell diagnostics in the editor, run `>Haskell: Restart Haskell LSP server` from the Command Palette.
 
-[![codespaces_thumb](https://github.com/user-attachments/assets/a56b1e88-84e6-4b31-8527-48fa0ffdca67)](https://www.youtube.com/watch?v=g1kK50rIAv4)
-
+[![stack](https://github.com/user-attachments/assets/ebeac349-372c-402a-9a82-a7128556f05b)](https://www.youtube.com/watch?v=ReRydamqHjw)
 
 ## Customization
 
