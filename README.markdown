@@ -22,8 +22,7 @@ Built on [GitHub Codespaces](https://github.com/features/codespaces). Personal a
 - Or open: [https://codespaces.new/LCamel/HaskellSpace](https://codespaces.new/LCamel/HaskellSpace)
 - Manage your Codespaces: [https://github.com/codespaces/](https://github.com/codespaces/)
 
-[![codespaces_thumb](https://github.com/user-attachments/assets/0be53469-dea5-46b3-b315-c01ab9b7d055)](https://www.youtube.com/watch?v=hcx0SSvk7zg)
-
+![start](https://github.com/user-attachments/assets/fe0eb52d-cbd1-4955-a1f8-86d0dfc1df40)
 
 ## Stack
 
