@@ -1,5 +1,4 @@
 <!--
-
  _   _           _        _ _ _____
 | | | |         | |      | | /  ___|
 | |_| | __ _ ___| | _____| | \ `--. _ __   __ _  ___ ___
@@ -8,9 +7,6 @@
 \_| |_/\__,_|___/_|\_\___|_|_\____/| .__/ \__,_|\___\___|
                                    | |
                                    |_|
-
-
-https://github.com/xero/figlet-fonts/blob/main/Doom.flf
 -->
 
 
@@ -58,3 +54,9 @@ To run the same environment locally, see [LCamel/haskell-devcontainer](https://g
 
 ## License
 [MIT-0](https://opensource.org/licenses/MIT-0) / [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+
+<!--
+ASCII Banner:
+https://patorjk.com/software/taag
+https://github.com/xero/figlet-fonts/blob/main/Doom.flf
+-->
