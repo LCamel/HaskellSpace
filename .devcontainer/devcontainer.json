@@ -18,7 +18,10 @@
           "cabal": null
         },
         // Disable automatic GHCup upgrade.
-        "haskell.upgradeGHCup": false
+        "haskell.upgradeGHCup": false,
+
+        // Disable minimap to save screen space.
+        "editor.minimap.enabled": false
       }
     }
   },
