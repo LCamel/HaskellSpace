@@ -16,6 +16,9 @@ A Haskell workspace in your browser (GHC + Stackage + HLS).
 
 Built on [GitHub Codespaces](https://github.com/features/codespaces). Personal accounts include 60 free hours per month ([plan](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) dependent).
 
+To run locally, see [LCamel/haskell-devcontainer](https://github.com/LCamel/haskell-devcontainer).
+
+
 ## Quick Start (Codespaces)
 
 - In GitHub, click `Code → Codespaces → Create codespace on main` (sign in first).
@@ -45,10 +48,6 @@ If you see incorrect or stale Haskell diagnostics in the editor, run `>Haskell: 
 ## Customization
 
 Copy [.devcontainer/devcontainer.json](.devcontainer/devcontainer.json) into your own repo so it can also be opened in the browser. See [this guide](https://code.visualstudio.com/docs/devcontainers/create-dev-container) for further customization.
-
-## Advanced Usage
-
-To run locally, see [LCamel/haskell-devcontainer](https://github.com/LCamel/haskell-devcontainer).
 
 
 ## License
